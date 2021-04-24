@@ -72,3 +72,11 @@ test('Test cerosIzq: given 11 and 0, it should return "11"', () => {
 test('Test cerosIzq: given 11 and 3, it should return "0"', () => {
   expect(operations.cerosIzq(11, 3)).toBe('011');
 });
+
+test('Test cerosIzq: given 55555 and 3, it should return "55555"', () => {
+  expect(operations.cerosIzq(55555, 3)).toBe('55555');
+});
+
+test('Test cerosIzq: given 1 and 3, it should return "001"', () => {
+  expect(operations.cerosIzq(1, 3)).toBe('001');
+});
